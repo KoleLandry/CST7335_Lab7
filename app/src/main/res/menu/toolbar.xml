@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Create "Choice 1" -->
+    <item
+        android:id="@+id/choice_1"
+        android:icon="@drawable/ic_snowflake"
+        android:title="Choice 1"
+        android:orderInCategory="1"
+        app:showAsAction="always"/>
+
+    <!-- Create "Choice 2" -->
+    <item
+        android:id="@+id/choice_2"
+        android:icon="@drawable/ic_reaction"
+        android:title="Choice 2"
+        android:orderInCategory="2"
+        app:showAsAction="always"/>
+
+    <!-- Create "Choice 3" -->
+    <item
+        android:id="@+id/choice_3"
+        android:icon="@drawable/ic_yard"
+        android:title="Choice 3"
+        android:orderInCategory="3"
+        app:showAsAction="always"/>
+
+    <!-- Create "Overflow" -->
+    <item
+        android:id="@+id/overflow"
+        android:title="Overflow"
+        app:showAsAction="never"/>
+</menu>
